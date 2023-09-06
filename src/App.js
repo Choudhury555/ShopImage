@@ -10,7 +10,7 @@ function App() {
             <Header />
             
             <Routes>
-            <Route exact path="/ShopImage" element={<Photos/>}/>
+            <Route exact path="/" element={<Photos/>}/>
                 {/* <Route exact path="/">////////////////Above syntax is the new in react-router-dom V6
                     <Photos />
                 </Route> */}
