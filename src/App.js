@@ -15,7 +15,7 @@ function App() {
                     <Photos />
                 </Route> */}
             
-                <Route exact path="/cart" element={<Cart/>}/>
+                <Route path="/cart" element={<Cart/>}/>
                 {/* <Route path="/cart">
                     <Cart />
                 </Route> */}
