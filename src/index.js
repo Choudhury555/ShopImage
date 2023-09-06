@@ -9,7 +9,7 @@ import {ContextProvider} from "./Context"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <ContextProvider>
-      <Router>
+      <Router basename="/ShopImage/">
           <App />
       </Router>
   </ContextProvider>
